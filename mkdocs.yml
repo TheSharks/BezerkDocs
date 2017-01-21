@@ -1,0 +1,35 @@
+# MkDocs config options
+
+# Meta
+site_name: 'Bezerk Documentation'
+site_description: 'Welcome to the Bezerk documentation'
+site_author: 'TheSharks'
+
+# Sitemap
+pages:
+  - Home: 'index.md'
+
+# Theme
+theme: 'material'
+
+# Material config options
+
+# Repo
+repo_name: 'GitHub'
+repo_url: 'https://github.com/TheSharks/Bezerk'
+
+# Copyright
+copyright: 'Copyright © 2016 TheSharks'
+
+# Extra options
+extra:
+  logo: 'img/thesharks_circular.png'
+  palette:
+    primary: 'red'
+    accent: 'maroon'
+  font:
+    text: 'Droid Sans'
+    font: 'Droid Sans Mono'
+  author:
+    github: 'TheSharks'
+    twitter: 'Dougley35'
