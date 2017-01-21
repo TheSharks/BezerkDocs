@@ -4,6 +4,8 @@ This is the documentation for Bezerk, the WildBeast Websocket Manager (WSM). Bez
 ##General information
 The aim of Bezerk is to allow larger WildBeast instances to more easily monitor events that happen on the shards. This can be used to monitor for potential shard crashes and so forth. For more information, you can read the [terminology reference](terminology.md) and the [introduction](intro.md).
 
+**NOTE:** As this is more advanced technology than most of our projects, this software is mainly aimed at advanced users and will hence assume a higher level of technical competence. Which means that some details are left to your own perception ability.
+
 ##Installation
 Bezerk runs on a host device of your choice. The server installation process is fairly simple, you need to install the Bezerk server and configure WildBeast to use it. At the time of writing a WildBeast integration does not exist, but there is a working prototype of the server. Installation guide coming later.
 
