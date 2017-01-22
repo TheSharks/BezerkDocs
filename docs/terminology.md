@@ -19,3 +19,5 @@ Server-side emissions:
 
 - **OK:** Emitted when the `IDENTIFY_SHARD` or `IDENTIFY_LISTENER` process passes successfully.
 - **HELLO:** Emitted when the websocket connection is opened, used for triggering `IDENTIFY_SHARD` and `IDENTIFY_LISTENER`.
+- **EVAL_REPLY** Emitted when a listener requested an evaluation, this event must be subscribed to in order to receive it.
+- **ERROR** Emitted when something unexpected happened, this event must be subscribed to in order to receive it.
