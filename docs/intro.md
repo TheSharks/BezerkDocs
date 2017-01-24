@@ -1,5 +1,8 @@
 On this page you can find a description of how Bezerk and WildBeast interact together. If you haven't yet read the [terminology page](terminology.md), then **do so now to understand this!**
 
+##Installation
+Clone the Bezerk repo the place of your choice from `https://github.com/TheSharks/Bezerk.git`. After this browse to the folder, do `npm install`. Then you need to configure WildBeast to use Bezerk, do this by changing `use` to true in the `bezerk` section in the WildBeast configuration file. Then start Bezerk.js with the system of your choice.
+
 ##General concept
 All results will be returned in JSON format as with any API. The Bezerk server acts like a nerve center between a WildBeast shard and the Discord gateway. There is always this duality where different things happen to shards and listeners. This will also be highlighted in the documentation for the sake of clarity.
 
@@ -28,4 +31,8 @@ The below diagram illustrates how a Bezerk listener will react to an incoming ev
 
 ![Event-Reception](https://i.dougley.com/T7h06GmY.png)
 
-The diagram is a sort of 
+The diagram is a sort of continuation on the previous one. It starts with the Bezerk listener in the top-left corner.
+
+When an event occurs, the listener will emit an OP code containing the event name, whatever else is required alongside it and a shard number if desired. The Bezerk server will then check if a shard is defined. If the shard is not defined, the event will be sent to all shards. If a shard is defined, the server will check if it is connected. If it's not, the event will be dropped. If the shard is connected, the shard will process the event and send the reply back to the listener via the Bezerk server.
+
+###And that, in a nutshell, is how Bezerk operates!
