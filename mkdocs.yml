@@ -8,6 +8,8 @@ site_author: 'TheSharks'
 # Sitemap
 pages:
   - Home: 'index.md'
+  - Introduction: 'intro.md'
+  - Terminology: 'terminology.md'
 
 # Theme
 theme: 'material'
