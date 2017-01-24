@@ -7,7 +7,7 @@ The aim of Bezerk is to allow larger WildBeast instances to more easily monitor 
 **NOTE:** As this is more advanced technology than most of our projects, this software is mainly aimed at advanced users and will hence assume a higher level of technical competence. Which means that some details are left to your own perception ability.
 
 ##Installation
-Bezerk runs on a host device of your choice. The server installation process is fairly simple, you need to install the Bezerk server and configure WildBeast to use it. At the time of writing a WildBeast integration does not exist, but there is a working prototype of the server. Installation guide coming later.
+Bezerk runs on a host device of your choice. The server installation process is fairly simple, you need to install the Bezerk server and configure WildBeast to use it. See Introduction for more details.
 
 ##Discord server
 We have a Discord to discuss in if you fancy, you can also get support for getting Bezerk to work there. Click below to join in.
