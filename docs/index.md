@@ -12,4 +12,4 @@ Bezerk runs on a host device of your choice. The server installation process is 
 ##Discord server
 We have a Discord to discuss in if you fancy, you can also get support for getting Bezerk to work there. Click below to join in.
 
-  <a href="https://discord.gg/0cFoiR5QVh5LZlQO"><img src="https://discordapp.com/api/guilds/110462143152803840/widget.png?style=banner2" alt="Discord server"></a>
+  <a href="https://discord.gg/wildbot"><img src="https://discordapp.com/api/guilds/110462143152803840/widget.png?style=banner2" alt="Discord server"></a>
